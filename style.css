@@ -1,0 +1,64 @@
+.body{
+    background-color: rgb(53, 52, 52);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    left: 200px;
+    top: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.belt{
+    background-color: rgb(90, 89, 89);
+    width: 175px;
+    height: 700px;
+    left: 263px;
+    /* padding: 30px;
+    margin: 15%; */
+    position: absolute;
+}
+
+.timer{
+    z-index: 2;
+    background-color: rgb(12, 185, 113);
+    width: 185px;
+    height: 75px;
+    left: 260px;
+    top: 270px;
+    position: absolute;
+    border-radius: 5%;
+    
+}
+
+.timer_decoration{
+    z-index: 3;
+    border-color: yellow;
+    border-style: groove;
+    width: 185px;
+    height: 75px;
+    left: -6px;
+    top: -85px;
+    position: relative;
+    border-radius: 5%;
+}
+
+.timer span{
+    text-align: center;
+    text-decoration: solid;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+.commands{
+
+}
+
+.start_stop{
+
+}
