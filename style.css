@@ -1,64 +1,127 @@
+#stopwatch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    background: rgb(224,253,248);
+    background-color: radial-gradient(circle, rgba(224,253,248,1) 23%, rgba(142,193,253,1) 86%) !important; 
+}
+
 .body{
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(52, 52, 52);
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    left: 200px;
     top: 200px;
     position: absolute;
-    z-index: 1;
+    z-index: 1;    
+    border: solid 2px rgb(180, 180, 180); 
+}
+
+.body, .belt{
+    -webkit-box-shadow: 1px 3px 9px 0px #000000; 
+    box-shadow: 1px 3px 9px 0px #000000;
 }
 
 .belt{
     background-color: rgb(90, 89, 89);
     width: 175px;
     height: 700px;
-    left: 263px;
+    left: 63px;
     /* padding: 30px;
     margin: 15%; */
-    position: absolute;
+    position: relative;
+    border: 1px solid #000000;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .timer{
     z-index: 2;
-    background-color: rgb(12, 185, 113);
+    background-color: rgba(87, 88, 88, 0.733);
     width: 185px;
     height: 75px;
-    left: 260px;
+    left: 60px;
     top: 270px;
     position: absolute;
     border-radius: 5%;
-    
-}
+    border-style: solid;
+    outline: 2px solid #000000;
+    outline-offset: 2px;
 
-.timer_decoration{
-    z-index: 3;
-    border-color: yellow;
-    border-style: groove;
-    width: 185px;
-    height: 75px;
-    left: -6px;
-    top: -85px;
-    position: relative;
-    border-radius: 5%;
 }
 
 .timer span{
-    text-align: center;
-    text-decoration: solid;
-    height: 100%;
-    vertical-align: middle;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
     display: block;
-    color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 20px #94e2fc, 0 0 20px rgb(75, 106, 248);
 }
 
 .commands{
 
 }
 
-.start_stop{
+.belt .bHole {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c; 
+    box-shadow: inset 0px 0px 20px 3px #424242;
+    width: 30px;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%);
+    border: 1px solid #000000;
+    border-radius: 20%;
+}
 
+.bHole1 {
+    top: 10px;
+}
+
+.bHole2 {
+    top: 40px;
+}
+
+.bHole3 {
+    top: 70px;
+}
+
+.bHole4 {
+    top: 100px;
+}
+
+.bHole5 {
+    top: 130px;
+}
+
+.bHole6 {
+    top: 160px;
+}
+
+.bHole7 {
+    top: 530px;
+}
+
+.bHole8 {
+    top: 560px;
+}
+
+.bHole9 {
+    top: 590px;
+}
+
+.bHole10 {
+    top: 620px;
+}
+
+.bHole11 {
+    top: 650px;
 }
