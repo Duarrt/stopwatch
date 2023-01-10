@@ -35,7 +35,7 @@
     border: 1px solid #000000;
     border-top: 3px solid #000000;
     border-bottom: 3px solid #000000;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 10px 10px 30px 30px;
 }
 
 .timer{
@@ -69,8 +69,47 @@
 
 }
 
+.buckle {
+    width: 173px;
+    height: 90px;
+    left: 50%;
+    top: -6%;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border: 10px solid #929292;
+    outline: 1px solid #000000;
+    box-shadow: inset 0 0 0 1px #000000, 0 0 0 1px #929292, 0 0 0 1px #000000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.buckleMiddle {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c;
+    box-shadow: inset 0px 0px 20px 3px #929292;
+    width: 195px;
+    height: 10px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 20%;
+    z-index: 1;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg) translate(-50%, -50%);
+    left: 19%;
+    top: 0%;
+    width: 97px;
+    height: 10px;
+    z-index: 1;
+}
+
 .belt .bHole {
-    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c; 
+    -webkit-box-shadow: inset 0px 0px 50px 4px #2c2c2c;
     box-shadow: inset 0px 0px 20px 3px #424242;
     width: 30px;
     height: 10px;
@@ -79,49 +118,51 @@
     display: inline-block;
     transform: translate(-50%);
     border: 1px solid #000000;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 .bHole1 {
-    top: 10px;
-}
-
-.bHole2 {
-    top: 40px;
-}
-
-.bHole3 {
-    top: 70px;
-}
-
-.bHole4 {
-    top: 100px;
-}
-
-.bHole5 {
-    top: 130px;
-}
-
-.bHole6 {
-    top: 160px;
-}
-
-.bHole7 {
     top: 530px;
 }
 
-.bHole8 {
+.bHole2 {
     top: 560px;
 }
 
-.bHole9 {
+.bHole3 {
     top: 590px;
 }
 
-.bHole10 {
+.bHole4 {
     top: 620px;
 }
 
-.bHole11 {
+.bHole5 {
     top: 650px;
+}
+
+.button {
+    -webkit-box-shadow: inset 0px 0px 50px 4px #929292;
+    box-shadow: inset 0px 0px 20px 3px #929292;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(90deg) translate(-50%, -50%);
+    border: 1px solid #000000;
+    border-radius: 15%;
+}
+
+.bStartStop{
+    -webkit-box-shadow: inset 0px 0px 50px 4px #a11616;
+    box-shadow: inset 0px 0px 20px 3px #a11616;
+    border: 1px solid #3d0101;
+    transform: rotate(65deg) translate(-50%, -50%);
+    left: 157%;
+    top: 40%;
+}
+
+.bReset{
+    left: 165%;
+    top: 51%;
 }

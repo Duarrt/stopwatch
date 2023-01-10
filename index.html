@@ -14,27 +14,19 @@
         
     </div>
     <div id="belt" class="belt">
+            <span class="buckle"></span>
+            <span class="buckleMiddle"></span>
             <span class="bHole bHole1"></span>
             <span class="bHole bHole2"></span>
             <span class="bHole bHole3"></span>
             <span class="bHole bHole4"></span>
             <span class="bHole bHole5"></span>
-            <span class="bHole bHole6"></span>
-            <span class="bHole bHole7"></span>
-            <span class="bHole bHole8"></span>
-            <span class="bHole bHole9"></span>
-            <span class="bHole bHole10"></span>
-            <span class="bHole bHole11"></span>
     </div>
     <div id="timer" class="timer">
         <span id="display">00:00:00</span>
     </div>
-    <div id="commands" class="commands">
-        <div id="start_stop" class="start_stop">
-            teste
-        </div>
-    </div>
-    <button onclick="timerCmd()">BUTÃO</button>
+    <button class="button bStartStop" onclick="timerCmd()"></button>
+    <button class="button bReset" onclick="resetTimer()"></button>
     <script src='timer.js'></script>
 </body>
 </html>
