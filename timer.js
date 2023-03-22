@@ -43,7 +43,6 @@ function timerCycle(){
         }
         
         timer.innerHTML = hour + ':' + min + ':' + sec;
-
         setTimeout("timerCycle()", 1000)
     }
 }

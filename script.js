@@ -1,5 +1,4 @@
 btnScript();
-
 function btnScript() {
     // Grab btns
     let btns = document.querySelectorAll(".start_stop");
